@@ -1,0 +1,36 @@
+.mission-play-screen-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(5, 20%);
+}
+
+.mission-play-screen-container > div {
+    border: 1px solid red;
+}
+
+.top {
+   grid-column: 1 / 6;
+   grid-row: 1
+}
+
+.left {
+    grid-column: 1;
+    grid-row: 2 / 5;
+}
+
+.center {
+    grid-column: 2 / 5;
+    grid-row: 2 / 5;
+}
+
+.right {
+    grid-column: 5;
+    grid-row: 2 / 5;
+}
+
+.bottom {
+    grid-column: 1 / 6;
+    grid-row: 5
+}
