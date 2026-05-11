@@ -1,0 +1,22 @@
+.ui-header-container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(3);
+}
+
+.ui-header-container > div {
+    border: 1px solid red;
+}
+
+.ui-header-left {
+    grid-column: 1;
+}
+
+.ui-header-center {
+    grid-column: 2;
+}
+
+.ui-header-right {
+    grid-column: 3;
+}
