@@ -11,3 +11,7 @@
 .hoverSelection:hover {
     border-color: blue;
 }
+
+.combat-grid-1-container > .combatGridCell.currentCell {
+    border-color: green;
+}
