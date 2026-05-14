@@ -1,13 +1,13 @@
-import { MissionPlayScreen } from "~/InGame/MissionPlayScreen/MissionPlayScreen";
-import { reduxStore } from "../InGame/ReduxStore/store";
+import { reduxStore } from "../ReduxStore/store";
 import { Provider } from "react-redux";
 import "./welcome.scss";
+import { MenuRouter } from "~/Menus/Router/Router";
 
 export function Welcome() {
   return (
     <main className="main">
       <Provider store={reduxStore} >
-        <MissionPlayScreen />
+        <MenuRouter />
       </Provider>
     </main>
   );

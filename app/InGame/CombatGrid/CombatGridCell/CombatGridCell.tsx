@@ -1,8 +1,8 @@
 import { useDispatch, useSelector } from "react-redux";
 import "../CombatGrid1.scss";
-import { combatGridSlice } from "~/InGame/ReduxStore/CombatGridSlice/CombatGridSlice";
+import { combatGridSlice } from "~/ReduxStore/CombatGridSlice/CombatGridSlice";
 import { useMemo } from "react";
-import type { rootState } from "~/InGame/ReduxStore/storeTypes";
+import type { rootState } from "~/ReduxStore/storeTypes";
 
 export const CombatGridCell = (props: {x: number, y: number}) => {
     const { x, y } = props;

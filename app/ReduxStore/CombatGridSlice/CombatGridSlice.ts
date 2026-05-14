@@ -4,7 +4,7 @@ export const combatGridSlice = createSlice({
     name: "combatGrid",
     initialState: {
         selectedCell: [-1, -1],
-        isActive: true,
+        isActive: false,
         //combatGrid: holds matrix of cell metadata
         //missionName: string name of mission
         //objectives: linked list/array that tracks the current objective and cycles to the next upon completion
